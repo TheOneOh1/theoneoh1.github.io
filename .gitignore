@@ -8,3 +8,10 @@ resume/*.fdb_latexmk
 
 # Local notes
 future_scope.md
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
