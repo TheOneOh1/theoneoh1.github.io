@@ -310,6 +310,15 @@ section:last-of-type {
   background-color: var(--primary);
 }
 
+.about-location {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
 .about-tagline {
   font-family: var(--font-heading);
   font-size: clamp(1.5rem, 3vw, 2rem);
@@ -658,6 +667,40 @@ section:last-of-type {
 .edu-detail {
   width: 100%;
   font-size: 1.125rem;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+/* --- Certifications --- */
+.cert-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.cert-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  transition: all var(--transition);
+}
+
+.cert-item:hover {
+  border-color: var(--text-bright);
+  transform: translateY(-4px);
+}
+
+.cert-name {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  color: var(--text-bright);
+  font-style: italic;
+}
+
+.cert-issuer {
+  font-family: var(--font-mono);
+  font-size: 12px;
   color: var(--muted);
   margin-top: 8px;
 }

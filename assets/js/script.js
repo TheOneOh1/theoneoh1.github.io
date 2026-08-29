@@ -131,9 +131,14 @@
       ? '<p class="about-learning"><strong>Currently learning:</strong> ' + esc(data.currently_learning) + '</p>'
       : '';
 
+    var locationHtml = data.location
+      ? '<p class="about-location">' + esc(data.location) + '</p>'
+      : '';
+
     el.innerHTML =
       '<h1 class="about-name">' + esc(data.name) + '</h1>' +
       '<p class="about-title">' + esc(data.title) + '</p>' +
+      locationHtml +
       taglineHtml +
       '<p class="about-desc">' + esc(data.summary) + '</p>' +
       learningHtml +
@@ -221,7 +226,24 @@
       '<div class="edu-list">' + items + '</div>';
   }
 
-  function renderFooter(links) {
+  function renderCertifications(data) {
+    var el = document.getElementById('certifications');
+    if (!el || !data || !data.length) return;
+
+    var items = data.map(function (c) {
+      var issuerHtml = c.issuer ? '<p class="cert-issuer">' + esc(c.issuer) + '</p>' : '';
+      return '<div class="cert-item fade-in">' +
+        '<span class="cert-name">' + esc(c.name) + '</span>' +
+        issuerHtml +
+        '</div>';
+    }).join('');
+
+    el.innerHTML =
+      '<h2 class="section-title">' + 'Certifications' + '</h2>' +
+      '<div class="cert-list">' + items + '</div>';
+  }
+
+  function renderFooter(links, name) {
     var el = document.getElementById('footer');
     if (!el) return;
 
@@ -236,7 +258,7 @@
     el.innerHTML =
       '<div class="container"><div class="footer-inner">' +
       '<div class="footer-links">' + footerLinks + '</div>' +
-      '<span class="footer-copy">&copy; ' + new Date().getFullYear() + ' Anand Kore</span>' +
+      '<span class="footer-copy">&copy; ' + new Date().getFullYear() + ' ' + esc(name || '') + '</span>' +
       '</div></div>';
   }
 
@@ -295,7 +317,7 @@
     el.innerHTML =
       '<div class="blog-header">' +
       '<h1 class="section-title">Blog</h1>' +
-      '<p class="blog-subtitle">Thoughts on DevOps, infrastructure, and the tools I build.</p>' +
+      '<p class="blog-subtitle">Thoughts on AI, robotics, and the things I build.</p>' +
       '</div>' +
       '<div class="blog-list">' + entries + '</div>';
   }
@@ -317,7 +339,7 @@
       if (isBlogPage) {
         // Blog page: only render blog + footer
         renderBlog(data.blogs);
-        renderFooter(data.about ? data.about.links : []);
+        renderFooter(data.about ? data.about.links : [], data.about ? data.about.name : '');
       } else {
         // Main page: render all sections
         renderAbout(data.about);
@@ -325,7 +347,8 @@
         renderExperience(data.experience);
         renderProjects(data.projects);
         renderEducation(data.education);
-        renderFooter(data.about ? data.about.links : []);
+        renderCertifications(data.certifications);
+        renderFooter(data.about ? data.about.links : [], data.about ? data.about.name : '');
 
         // Update page title from content
         if (data.about && data.about.name && data.about.title) {

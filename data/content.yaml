@@ -3,161 +3,180 @@
 # ============================================
 
 about:
-  name: Anand Kore
-  title: DevOps Engineer
-  tagline: Bridging the gap between "works on my machine" and "works everywhere."
+  name: Nirjhar Mitra
+  title: AI Enthusiast & Developer
+  location: Kolkata, West Bengal, India
+  tagline: Combining AI, robotics, and cloud technologies to build impactful, future-ready solutions.
   summary: >
-    DevOps Engineer who cut deployment time by 60% by migrating 25+ projects
-    to GitLab CI/CD at C-DAC, built an observability stack serving 15+ production
-    services (reducing MTTD from hours to minutes), and slashed provisioning time
-    from 4+ hours to under 30 minutes with automated Bash scripting.
-    3+ years designing CI/CD pipelines, containerizing microservices, and building
-    production-grade monitoring across AWS, Docker, Kubernetes, and Terraform.
-    Passionate about DevSecOps, GitOps workflows, and infrastructure automation.
-  currently_learning: Advanced Terraform
-  resume_url: assets/docs/Anand_Kore_Resume.pdf
+    I am currently serving as Chief Technology Officer at AIZenera LLP, while pursuing a
+    B.Tech in Electronics and Communication Engineering (ECE) at the Institute
+    of Engineering and Management, along with a Major Degree in Artificial Intelligence
+    from IIT Ropar. Hands-on experience in robotics software development through the
+    ongoing project Oddity, working with ROS2, Gazebo simulation, and AI integration
+    for autonomous systems. Expanding expertise in cloud computing through the Google
+    Cloud Basecamp program, gaining practical exposure to deploying and managing
+    AI-driven applications in real-world cloud environments. Passionate about combining
+    AI, robotics, and cloud technologies to create intelligent, future-ready systems.
+  currently_learning: Cloud Computing (Google Cloud Basecamp), Retrieval-Augmented Generation (RAG)
+  resume_url: assets/docs/Nirjhar_Mitra_Resume.pdf
   links:
-    - label: anandkore1@gmail.com
-      url: mailto:anandkore1@gmail.com
+    - label: roninplays007@gmail.com
+      url: mailto:roninplays007@gmail.com
       icon: email
     - label: LinkedIn
-      url: https://www.linkedin.com/in/anandkore101/
+      url: https://www.linkedin.com/in/nirjhar-mitra-a1481030a
       icon: linkedin
     - label: GitHub
-      url: https://github.com/TheOneOh1
+      url: https://github.com/RONIN-plays
       icon: github
     - label: Preview Resume
-      url: assets/docs/Anand_Kore_Resume.pdf
+      url: assets/docs/Nirjhar_Mitra_Resume.pdf
       icon: preview
     - label: Resume
-      url: assets/docs/Anand_Kore_Resume.pdf
+      url: assets/docs/Nirjhar_Mitra_Resume.pdf
       icon: download
 
 skills:
-  - category: CI/CD & Automation
-    items: GitLab CI/CD, GitHub Actions, Jenkins, Bitbucket Pipelines
-  - category: Containers & Orchestration
-    items: Docker, Docker Swarm, Kubernetes, Docker Compose
-  - category: Infrastructure as Code
-    items: Terraform, Ansible, Bash, Python, PowerShell, YAML
-  - category: Cloud Platforms
-    items: AWS (EC2, VPC, Lambda, IAM, S3, CloudWatch)
-  - category: Observability & Monitoring
-    items: Prometheus, Grafana, Loki, Promtail, New Relic, Splunk
-  - category: Security & Code Quality
-    items: SonarQube, Snyk, Snort IDS, VAPT Remediation, Keycloak IAM
-  - category: OS & Version Control
-    items: Linux (RHEL, Debian, Ubuntu), Git, GitLab SCM, Nginx
-  - category: Practices
-    items: Incident Response, On-call Operations, Infrastructure Automation
+  - category: Programming Languages
+    items: C, Java, Python
+  - category: App Development
+    items: Flutter
+  - category: AI & Machine Learning
+    items: Machine Learning, Deep Learning, Retrieval-Augmented Generation (RAG)
+  - category: Simulation & Engineering Tools
+    items: MATLAB, Simulink
+  - category: Robotics
+    items: ROS2, Gazebo Simulation, Autonomous Systems
+  - category: Cloud
+    items: Google Cloud Platform
+  - category: Web
+    items: Web Maintenance, Web Production Management, Technology Integration
 
 experience:
-  - role: Project Engineer - DevOps
-    company: "C-DAC: Centre for Development of Advanced Computing"
-    location: Pune
-    date: Nov 2022 – Present
+  - role: Core Member
+    company: NEX ~ IEM Tech Club
+    location: IEM, Kolkata
+    date: Aug 2026 – Present
     bullets:
-      - Migrated 25+ projects from manual deployment to GitLab CI/CD pipelines, reducing deployment time by 60% and eliminating manual release errors across multiple teams.
-      - Integrated SonarQube and Snyk into CI/CD workflows, enforcing automated code quality gates and reducing security vulnerabilities by 30% before production.
-      - Containerized 10+ microservices using Docker and Docker Swarm, improving deployment consistency and resource utilization by 40%.
-      - Architected a centralized logging & monitoring stack (Prometheus, Loki, Grafana) serving 15+ Spring Boot services, reducing MTTD from hours to minutes.
-      - Engineered Jenkins pipelines automating build, test, and release workflows, cutting manual release overhead by 70%.
-      - Automated ePariksha provisioning (Java, Tomcat, PostgreSQL, backup/restore, RHEL & Debian) with a Bash script, reducing setup time from 4+ hours to under 30 minutes.
-      - Designed production architecture for ACTS Website & PMS portal, achieving near-zero downtime during migration serving 5,000+ concurrent users.
-      - Deployed and maintained paySETU a Payment Administration Service on-premise (Java, PostgreSQL, Node.js, Keycloak IAM, Nginx), remediating internal & external VAPT findings.
-      - Standardized Git branching strategies across dev teams, reducing merge conflicts by 50%.
+      - Contributing as a core member of the college's technology club.
 
-  - role: CSA & SME
-    company: Amazon
-    location: Pune
-    date: Jul 2018 - Mar 2021
+  - role: Chief Technology Officer
+    company: AIZenera LLP
+    location: Remote
+    date: Jul 2026 – Present
     bullets:
-      - Leveraged strong technical communication skills to translate complex issues into actionable solutions for end-users.
-      - Led peer training initiatives, improving overall team performance metrics and decreasing new hire onboarding time by 25%.
+      - Leading technology direction and product build-out at AIZenera LLP.
+
+  - role: Student Innovator
+    company: AMD
+    location: Remote
+    date: Feb 2026 – Present
+    bullets:
+      - Officially selected as part of AMD Slingshot, an AMD-backed student innovator program.
+
+  - role: Space Technology Intern
+    company: India Space Week
+    location: India
+    date: Feb 2026 – Present
+    bullets:
+      - Completed Advanced Drone Technology, CanSat & CubeSat, Rocketry, Remote Sensing, and Disaster Management training tracks.
+
+  - role: Secretary
+    company: IEEE Communications Society
+    location: IEM, Kolkata
+    date: Feb 2026 – Present
+    bullets:
+      - Progressed from Member to Secretary, coordinating chapter operations and technical events.
+
+  - role: Webmaster
+    company: IEEE Women in Engineering
+    location: IEM, Kolkata
+    date: Feb 2026 – Present
+    bullets:
+      - Manage and maintain the affinity group's web presence.
+
+  - role: Core Member
+    company: IEEE Circuits and Systems Society (CASS)
+    location: IEM, Kolkata
+    date: Feb 2026 – Present
+    bullets:
+      - Organize various technical events and activities under the CASS student chapter.
+
+  - role: Machine Learning Intern
+    company: CodeAlpha
+    location: Remote
+    date: Aug 2025 (1 month)
+    bullets:
+      - Completed a remote Machine Learning internship applying ML fundamentals to real-world tasks.
 
 projects:
-  - name: K8s-Snorty-Splunk
-    description: Kubernetes cluster IDS on AWS with Snort intrusion detection and Splunk dashboards for real-time threat monitoring and alerting.
-    url: https://github.com/TheOneOh1/K8s-Snorty-Splunk
-    tags: [AWS, Kubernetes, Snort, Splunk]
+  - name: Oddity
+    description: Ongoing robotics software project integrating ROS2 and Gazebo simulation with AI for autonomous systems.
+    url: "#"
+    tags: [ROS2, Gazebo, AI, Robotics]
 
-  - name: Couch-Control
-    description: Self-hosted media remote to control playback and volume on Windows from your phone's browser. FastAPI backend with WebSocket real-time updates.
-    url: https://github.com/TheOneOh1/Couch-Control
-    tags: [Python, FastAPI, WebSocket]
+  - name: Recruitex
+    description: AI-powered recruitment platform with proctored assessments, live AI interviews, and resume-grounded question generation.
+    url: https://github.com/RONIN-plays/recruitex
+    tags: [TypeScript, AI, Recruitment]
 
-  - name: Blackbox-Lite
-    description: Lightweight Bash monitoring agent for websites and VM hosts, exports Prometheus-compatible metrics via Node Exporter. Inspired by a real infrastructure crisis.
-    url: https://github.com/TheOneOh1/blackbox-lite
-    tags: [Bash, Prometheus, Node Exporter]
+  - name: GraphMind
+    description: Research tool comparing Baseline LLM, Vector RAG, and GraphRAG inference strategies with side-by-side latency, token usage, and knowledge-graph visualization.
+    url: https://github.com/RONIN-plays/GRAPHRAG
+    tags: [Python, RAG, Knowledge Graph]
 
-  - name: Argus-Scan
-    description: Python-based security automation tool that orchestrates Nmap, Nikto, and Nuclei scans with consolidated reporting.
-    url: https://github.com/TheOneOh1/Argus-Scan
-    tags: [Python, Nmap, Nikto, Nuclei]
+  - name: SmartTrend Stock Analyser
+    description: AI-powered stock market trend analysis and forecasting system using machine learning, time-series models, clustering, and sentiment analysis.
+    url: https://github.com/RONIN-plays/SMART-TREND-STOCK-ANALYSER
+    tags: [Python, Machine Learning, Time-Series]
 
-  - name: Sentinel
-    description: Synthetic website monitoring using Bash; checks content availability and sends email alerts via SMTP when checks fail.
-    url: https://github.com/TheOneOh1/Sentinel
-    tags: [Bash, SMTP, cURL, Monitoring]
+  - name: Voice-to-Code Assistant
+    description: Transcribes spoken voice commands directly into working code output.
+    url: https://github.com/RONIN-plays/VOICE-TO-CODE-ASSISTANT
+    tags: [Python, Speech Recognition, AI]
 
-  - name: Darkly-Scanner
-    description: Mass port scanning tool for penetration testers and bug bounty hunters. Scan a specific port across multiple domains at once.
-    url: https://github.com/TheOneOh1/Darkly-Scanner
-    tags: [Bash, Networking, Penetration Testing]
+  - name: LokSetu
+    description: Civic-engagement Flutter app for reporting and tracking local issues, with access to government schemes, helplines, and an admin panel.
+    url: https://github.com/RONIN-plays/LOKSETU
+    tags: [Flutter, Dart, Civic Tech]
 
 education:
-  - degree: Post Graduate Diploma in IT Infrastructure, Systems & Security
-    institution: C-DAC - Centre for Development of Advanced Computing, Pune
-    year: "2022"
+  - degree: Major Degree in Artificial Intelligence
+    institution: Indian Institute of Technology, Ropar
+    year: "2024 - 2025"
 
-  - degree: Bachelor of Engineering in Information Technology
-    institution: PVPIT, Sangli - Shivaji University
-    year: "2018"
+  - degree: Bachelor of Technology, Electronics and Communication Engineering
+    institution: Institute of Engineering & Management (IEM)
+    year: "2024 - 2028"
+
+  - degree: Internshala Trainings
+    institution: Internshala
+    year: "2024"
+
+  - degree: Higher Secondary Education, Class 12
+    institution: Kalyani Central Model School
+    year: "2022 - 2024"
+
+  - degree: Secondary Education, Class 10
+    institution: Don Bosco School Bandel
+    year: "2012 - 2022"
+
+# ============================================
+# CERTIFICATIONS
+# ============================================
+
+certifications:
+  - name: Introduction to Artificial Intelligence
+  - name: GraphRAG Inference Hackathon
+    issuer: Certificate of Participation · TigerGraph
+  - name: Ideatex of Session Zero 2026
+    issuer: Certificate of Participation
+  - name: Google Solution Challenge 2026
+  - name: Skills Boost Arcade Trivia
+    issuer: August 2025 · Week 1
 
 # ============================================
 # BLOG SECTION
 # ============================================
 
-blogs:
-  - title: "Blackbox-Lite: From a basic Bash Script to a Monitoring Tool"
-    summary: "The origin story of building an automated, all-seeing monitoring solution - evolving from reactive troubleshooting to proactive infrastructure observability with Prometheus integration."
-    url: https://medium.com/@anandkore1/how-i-stopped-manually-pinging-vms-during-an-infrastructure-crisis-b1f1b2d8890b
-    platform: medium
-    date: "2026-04-04"
-    tags: [Bash, Prometheus, Monitoring, Observability, Linux]
-
-  - title: "How to Gracefully Handle Downtime with Nginx"
-    summary: "Don't show an ugly 503 default error page to your users instead use this simple Nginx trick to handle a proper Downtime message."
-    url: https://medium.com/@anandkore1/how-to-gracefully-handle-downtime-with-nginx-and-a-503-status-code-5d16326e1add
-    platform: medium
-    date: "2026-03-24"
-    tags: [Nginx, Downtime, 503, Webserver]
-
-  - title: "Couch Control: I Was Too Lazy to Get Off the Couch, So I Built This"
-    summary: "Are you fed up of all those remote app asking for permissions to control your media player?, try this self-hosted remote control for your media player."
-    url: https://couch-control.hashnode.dev/i-was-too-lazy-to-get-off-the-couch-so-i-built-this
-    platform: hashnode
-    date: "2026-02-02"
-    tags: [Python, FastAPI, WebSocket, Self-hosted]
-
-  - title: "How we Stopped 30-Minute Deployments and Saved Our Team 95 Hours a Month"
-    summary: "A deep-dive into migrating a legacy React frontend pipeline from Node 16 + Webpack to Node 24 + Vite, replacing SSH deployments with artifact-based releases and PM2 process management."
-    url: https://medium.com/@anandkore1/how-we-stopped-30-minute-deployments-and-saved-our-team-95-hours-a-month-0d0dc1bcce98
-    platform: medium
-    date: "2026-04-08"
-    tags: [CI/CD, GitLab, Vite, React]
-
-  - title: "My Portfolio Site Has a CI/CD Pipeline. Here’s Why."
-    summary: "I wanted my portfolio to be more than just a static page - I wanted it to be a living testament to my DevOps skills. So I built a CI/CD pipeline to automate the entire deployment process."
-    url: https://medium.com/@anandkore1/my-portfolio-site-has-a-ci-cd-pipeline-heres-why-63ac5cbaaddb
-    platform: medium
-    date: "2026-04-14"
-    tags: [CI/CD, GitHub Actions, LaTeX, Portfolio]
-
-  - title: "How I Gave Our PostgreSQL Database a Time Machine (With pgBackRest)"
-    summary: "A practical guide to setting up Point-in-Time Recovery for PostgreSQL using pgBackRest and what drove me into it."
-    url: https://medium.com/@anandkore1/how-i-gave-our-postgresql-database-a-time-machine-with-pgbackrest-acdc2c0842be
-    platform: medium
-    date: "2026-05-01"
-    tags: [PostgreSQL, Backup, PITR, Recovery]
+blogs: []
